@@ -1,19 +1,21 @@
-import React from 'react';
-import './App.css';
-import Rotation from 'react-rotation'
+import React,{Component} from 'react';
+import Layout from './components/Layout/Layout';
+import CVBuilder from './containers/CVBuilder/CVBuilder';
+
 import logo from './assets/img/dana.jpg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <img className = 'fixed_img' src ={logo}/>
-        <p>
-          Dana Cohen
-        </p>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div>
+        <Layout>
+          <CVBuilder/>
+        </Layout>
+  
+      </div>
+    );
+  }
+  
 }
 
 export default App;
