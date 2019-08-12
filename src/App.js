@@ -31,10 +31,16 @@ class App extends Component {
   
       ],
       skills: [
-          {name: 'Python', percentage: '95%'},
-          {name: 'Java', percentage: '90%'},
-          {name: 'C#', percentage: '75%'},
-          {name: 'C++', percentage: '50%'}
+          {pl: 'Python', percentage: '95%'},
+          {pl: 'Java', percentage: '90%'},
+          {pl: 'C#', percentage: '75%'},
+          {pl: 'C++', percentage: '50%'}
+      ],
+      projects:[
+        {pl:'C#' ,description:'Human Resources Management System'},
+        {pl:'Java' ,description:'Computer Engineering- generating 3D pictures'},
+        {pl:'Java' ,description:'2 Android applications for managing Car Rental Company'},
+        {pl:'SQL' ,description:'Learning the language and creating a database in PL SQL Developer'}
       ]
   };
     return (
