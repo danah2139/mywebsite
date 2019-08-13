@@ -14,7 +14,7 @@ const SocialNetworks = (props) => {
     </ul>
   );
   return (
-    <div className="social">
+    <div className="socialNet">
       {socialNetworks}
     </div>
   )
