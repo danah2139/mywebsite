@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 
+
 import logo from './assets/img/dana.jpg';
 
 class App extends Component {
@@ -17,17 +18,17 @@ class App extends Component {
       address: 'Ashkelon Isreal',
       email:'danah2139@gmail.com',
       phone:'050-9912802',
-      social: [
+      socialNet: [
           {name:'envelope', url:'mailto:danah2139@gmail.com'},
           {name: 'github', url: 'https://github.com/danah2139'},
           {name: 'linkedin', url: 'https://www.linkedin.com/in//dana-cohen-5176b514b/'}
       ],
       experience: [
           {jobTitle: 'Software Developer – Student', company: '- Ministry Of Defense – "Malmab" Department - Cyber Security', startDate: 'Jan 2016', endDate: 'Present', jobDescription:' Member of developing team. programming in python and react.js' },
-          {jobTitle: 'Backend', company: 'DragonsDev', startDate: 'September 2014', endDate: 'Jan 2016', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+          {jobTitle: 'qa', company: 'Tax Authority', startDate: 'September 2014', endDate: 'Jan 2016', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       education: [
-          {degree: 'BSc Computer Science', institution: 'Jct- Lev Academic Center', startDate: 'Oct 2015', endDate: 'Jul 2019', description: ''},
+          {degree: 'BSc Computer Science', institution: 'Jct- Lev Academic Center', startDate: 'Oct 2015', endDate: 'Jul 2019', description: 'bla'},
   
       ],
       skills: [
@@ -53,7 +54,8 @@ class App extends Component {
               profession={person.profession}
               bio={person.bio}
               address={person.address}
-              social={person.social} />
+              phone = {person.phone}
+              socialNet={person.socialNet} />
         </div>
 
         <div className='content-wrapper'>

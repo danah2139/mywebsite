@@ -5,7 +5,7 @@ import React from 'react';
  const Education = (props) => {
     const myEducation = (
       <div>
-        {props.Education.map((edu) =>
+        {props.education.map((edu) =>
           <div className='item' key={edu.degree}>
             <h3>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
             <p>{edu.description}</p>

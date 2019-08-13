@@ -1,7 +1,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import socialNet from './SocialNetworks';
+import SocialNet from './SocialNetworks';
 
 
 const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
@@ -23,19 +23,19 @@ const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
             <div className = 'address'>
                 <p>{phone}</p>
             </div>
-            <Social social={socialNet} />
+            <SocialNet socialNet={socialNet} />
         </div>
     );
 };
   
-About.PropTypes = {
+About.propTypes = {
     avatar: PropTypes.string,
     name: PropTypes.string,
     profession: PropTypes.string,
     bio: PropTypes.string,
     address: PropTypes.string,
     phone:PropTypes.string,
-    social: PropTypes.node
+    socialNet: PropTypes.node
 };
   
 export default About;

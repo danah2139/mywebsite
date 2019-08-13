@@ -23,4 +23,4 @@ import React from 'react';
   };
 
 
-export default Education;
+export default Experience;
