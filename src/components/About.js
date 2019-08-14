@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import SocialNet from './SocialNetworks';
@@ -17,10 +16,12 @@ const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
             <div className='desc'>
                 <p>{bio}</p>
             </div>
-            <div className='address'>
+            <div className='desc'>
+                <i className='fa fa-location-arrow'></i>
                 <p>{address}</p>
             </div>
-            <div className = 'address'>
+            <div className = 'desc'>
+                <i className='"fa fa-map-marker"'></i>
                 <p>{phone}</p>
             </div>
             <SocialNet socialNet={socialNet} />

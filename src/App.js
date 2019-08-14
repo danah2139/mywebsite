@@ -23,17 +23,17 @@ class App extends Component {
       ],
       experience: [
           {jobTitle: 'Software Developer – Student', company: '- Ministry Of Defense – "Malmab" Department - Cyber Security', startDate: 'Fab 2018', endDate: 'Present', jobDescription:' Member of developing team. programming in python and react.js' },
-          {jobTitle: 'qa', company: 'Tax Authority- Data Systems Management', startDate: 'Dec 2016', endDate: 'Fab 2018', jobDescription: 'Member of the technical support team  Department of Human Resources Israel Tax Authority .Responsible for maintenance the software by making QA tests.'},
+          {jobTitle: 'qa - Student', company: 'Tax Authority- Data Systems Management', startDate: 'Dec 2016', endDate: 'Fab 2018', jobDescription: 'Member of the technical support team  Department of Human Resources Israel Tax Authority .Responsible for maintenance the software by making QA tests.'},
       ],
       education: [
           {degree: 'BSc Computer Science', institution: 'Jct- Lev Academic Center', startDate: 'Oct 2015', endDate: 'Jul 2019', description: ''},
   
       ],
       skills: [
-          {pl: 'Python', percentage: '95%'},
-          {pl: 'Java', percentage: '90%'},
-          {pl: 'C#', percentage: '80%'},
-          {pl: 'C++', percentage: '80%'}
+          {pl: 'Python', percentage: '97%'},
+          {pl: 'Java', percentage: '95%'},
+          {pl: 'C#', percentage: '90%'},
+          {pl: 'C++', percentage: '90%'}
       ],
       projects:[
         {pl:'C#' ,description:'Human Resources Management System'},

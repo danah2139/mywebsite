@@ -13,7 +13,7 @@ const Projects = (props) => {
   );
   return (
     <div className="title">
-        <i className='fa fa-code'></i>
+        <i className='fa fa-file-code-o'></i>
         <h2>Projects</h2>
         {myProjects}
     </div>
