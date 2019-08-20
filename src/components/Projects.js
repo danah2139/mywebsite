@@ -14,7 +14,7 @@ const Projects = (props) => {
   return (
     <div className="title">
         <i className='fa fa-file-code-o'></i>
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
         {myProjects}
     </div>
   )

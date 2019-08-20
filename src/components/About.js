@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SocialNet from './SocialNetworks';
-
+import {withRouter,Route } from 'react-router-dom';
 
 const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
     return(
         <div className='bio'>
-            <div className='avatar'>
-                <img src={avatar} alt={name} />
-            </div>
+            <img src={avatar} alt ={name}/>
             <div className='title'>
                 <h1>{name}</h1>
                 <h2>{profession}</h2>
@@ -17,14 +15,14 @@ const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
                 <p>{bio}</p>
             </div>
             <div className='desc'>
-                <i className='fa fa-location-arrow'></i>
+                <i className='fa fa-map-marker'></i>
                 <p>{address}</p>
             </div>
             <div className = 'desc'>
-                <i className='"fa fa-map-marker"'></i>
+                <i className='fa fa-mobile'></i>
                 <p>{phone}</p>
             </div>
-            <SocialNet socialNet={socialNet} />
+            <Route exact path = '/components' socialNet={socialNet} component = {props => <SocialNet  socialNet={socialNet}/>} />
         </div>
     );
 };
@@ -39,4 +37,4 @@ About.propTypes = {
     socialNet: PropTypes.node
 };
   
-export default About;
+export default withRouter(About);

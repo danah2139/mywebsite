@@ -4,6 +4,9 @@ import Projects from './components/Projects'
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import img from './assets/img/Dana-Cohen.jpg';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import createHistory from 'history/createBrowserHistory';
 
 
 class App extends Component {
@@ -19,7 +22,7 @@ class App extends Component {
       socialNet: [
           {name:'envelope', url:'mailto:danah2139@gmail.com'},
           {name: 'github', url: 'https://github.com/danah2139'},
-          {name: 'linkedin', url: 'https://www.linkedin.com/in//dana-cohen-5176b514b/'}
+          {name: 'linkedin', url: 'https://www.linkedin.com/in/dana-cohen-5176b514b/'}
       ],
       experience: [
           {jobTitle: 'Software Developer – Student', company: '- Ministry Of Defense – "Malmab" Department - Cyber Security', startDate: 'Fab 2018', endDate: 'Present', jobDescription:' Member of developing team. programming in python and react.js' },
@@ -46,22 +49,31 @@ class App extends Component {
       <header>
         <div className='wrapper'>
           <div className='sidebar'>
-            <About
+            <Route exact path = '/'
               avatar={person.avatar}
               name={person.name}
               profession={person.profession}
               bio={person.bio}
               address={person.address}
               phone = {person.phone}
-              socialNet={person.socialNet} />
+              socialNet={person.socialNet} component ={props => 
+              <About avatar={person.avatar} 
+              name={person.name} 
+              profession={person.profession}
+              bio={person.bio}
+              address={person.address}
+              phone = {person.phone}/>} />
         </div>
 
         <div className='content-wrapper'>
             <div className='content'>
-              <Experience experience={person.experience} />
-              <Education education={person.education} />
-              <Projects projects={person.projects}/>
-              <Skills skills={person.skills} />
+              <Route  exact path = '/' experience = {person.experience} component = {props => <Experience experience = {person.experience} />}/>
+              <Route  exact path = '/' education={person.education} component = {props => <Education education={person.education}/>} />
+              <Route  exact path = '/' projects={person.projects} component = {props => < Projects projects={person.projects}/>}/>
+              <Route  exact path = '/' skills=  {person.skills} component = {props => <Skills skills={person.skills}/>} />
+              <div className = 'title'>
+                <img src = {img} alt = 'dana' />
+              </div>
             </div>
         </div>
       </div>

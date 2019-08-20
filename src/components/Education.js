@@ -1,4 +1,5 @@
 import React from 'react';
+import {withRouter} from 'react-router-dom';
 
 
 
@@ -15,7 +16,7 @@ import React from 'react';
     );
     return (
       <div className='title'>
-        <i class="fa fa-university"></i>
+        <i className="fa fa-university"></i>
         <h2>EDUCATION</h2>
         {myEducation}
       </div>
@@ -23,4 +24,4 @@ import React from 'react';
   };
 
 
-export default Education;
+export default withRouter(Education);

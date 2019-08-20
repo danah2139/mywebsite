@@ -1,5 +1,6 @@
 
 import React from 'react';
+import {withRouter} from 'react-router-dom';
 
 const SocialNetworks = (props) => {
   const socialNetworks = (
@@ -20,4 +21,4 @@ const SocialNetworks = (props) => {
   )
 };
 
-export default SocialNetworks;
+export default withRouter(SocialNetworks);
