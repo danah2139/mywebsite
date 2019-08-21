@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://danah2139.github.io/mywebsite",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "nib": "^1.1.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
