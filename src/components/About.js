@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SocialNet from './SocialNetworks';
-import {withRouter,Route } from 'react-router-dom';
 
 const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
     return(
@@ -22,7 +21,7 @@ const About = ({avatar, name, profession, bio,phone,address, socialNet}) => {
                 <i className='fa fa-mobile'></i>
                 <p>{phone}</p>
             </div>
-            <Route exact path = '/components' socialNet={socialNet} component = {props => <SocialNet  socialNet={socialNet}/>} />
+            <SocialNet socialNet={socialNet} />
         </div>
     );
 };
@@ -37,4 +36,4 @@ About.propTypes = {
     socialNet: PropTypes.node
 };
   
-export default withRouter(About);
+export default About;

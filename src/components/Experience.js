@@ -1,5 +1,4 @@
 import React from 'react';
-import {withRouter} from 'react-router-dom';
 
 
  const Experience = (props) => {
@@ -23,4 +22,4 @@ import {withRouter} from 'react-router-dom';
   };
 
 
-export default withRouter(Experience);
+export default Experience;
