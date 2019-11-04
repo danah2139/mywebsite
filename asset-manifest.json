@@ -1,14 +1,12 @@
 {
-  "files": {
-    "main.js": "/static/js/main.d5e6e787.chunk.js",
-    "main.js.map": "/static/js/main.d5e6e787.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.901827b4.chunk.js": "/static/js/2.901827b4.chunk.js",
-    "static/js/2.901827b4.chunk.js.map": "/static/js/2.901827b4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.46f3f16eddf31d599c7f86e07c5824c8.js": "/precache-manifest.46f3f16eddf31d599c7f86e07c5824c8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/Dana-Cohen.jpg": "/static/media/Dana-Cohen.e564b00b.jpg"
-  }
+  "main.js": "/static/js/main.db7c6ff7.chunk.js",
+  "main.js.map": "/static/js/main.db7c6ff7.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.4798774d.chunk.js": "/static/js/2.4798774d.chunk.js",
+  "static/js/2.4798774d.chunk.js.map": "/static/js/2.4798774d.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.7f1c05fbeef967a9ca60d5d301cfd5fb.js": "/precache-manifest.7f1c05fbeef967a9ca60d5d301cfd5fb.js",
+  "service-worker.js": "/service-worker.js",
+  "static/media/Dana-Cohen.jpg": "/static/media/Dana-Cohen.e564b00b.jpg"
 }
