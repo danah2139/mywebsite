@@ -6,7 +6,9 @@ const Projects = (props) => {
     {props.projects.map((pro) =>
       <div className='item' key={pro.pl}>
         <h3>{pro.pl} </h3>
-        <p>{pro.description}</p>
+        <a href= {pro.link}>
+          <p>{pro.description}</p>
+        </a>
       </div>
     )}
   </div>
