@@ -23,8 +23,8 @@ class App extends Component {
           {name: 'linkedin', url: 'https://www.linkedin.com/in/dana-cohen-5176b514b/'}
       ],
       experience: [
-          {jobTitle: 'Software Developer – Student', company: '- Ministry Of Defense – "Malmab" Department - Cyber Security', startDate: 'Fab 2018', endDate: 'Present', jobDescription:' Member of developing team. programming in python and react.js' },
-          {jobTitle: 'qa - Student', company: 'Tax Authority- Data Systems Management', startDate: 'Dec 2016', endDate: 'Fab 2018', jobDescription: 'Member of the technical support team  Department of Human Resources Israel Tax Authority .Responsible for maintenance the software by making QA tests.'},
+          {jobTitle: 'Software Developer – Student', company: '- Ministry Of Defense – "Malmab" Department ', startDate: 'Fab 2018', endDate: 'September 2019', jobDescription:' Member of Developing team - programming in python and react.js' },
+          {jobTitle: 'Qa - Student', company: 'Tax Authority- Data Systems Management', startDate: 'Dec 2016', endDate: 'Fab 2018', jobDescription: 'Member of the technical support team  Department of Human Resources Israel Tax Authority .Responsible for maintenance the software by making QA tests.'},
       ],
       education: [
           {degree: 'BSc Computer Science', institution: 'Jct- Lev Academic Center', startDate: 'Oct 2015', endDate: 'Jul 2019', description: ''},
@@ -37,10 +37,11 @@ class App extends Component {
           {pl: 'C++', percentage: '90%'}
       ],
       projects:[
-        {pl:'C#' ,description:'Human Resources Management System'},
-        {pl:'Java' ,description:'Computer Engineering- generating 3D pictures'},
-        {pl:'Java' ,description:'2 Android applications for managing Car Rental Company'},
-        {pl:'SQL' ,description:'Learning the language and creating a database in PL SQL Developer'}
+        {pl:'C#' ,description:'Health Tracker System ',link:"https://github.com/danah2139/HealthTracker"},
+        {pl:'Java' ,description:'Computer Engineering- generating 3D pictures',link:"https://github.com/danah2139/GeneratePic"},
+        {pl:'Java' ,description:'2 Android applications for managing Car Rental Company',link:"https://github.com/danah2139/TakeNGo--client"},
+        {pl:'Python' ,description:'Web Blog -using flask Framework',link:"https://github.com/danah2139/myblogapp"},
+        {pl:'SQL' ,description:'Learning the language and creating a database in PL SQL Developer',link:""}
       ]
   };
     return (
