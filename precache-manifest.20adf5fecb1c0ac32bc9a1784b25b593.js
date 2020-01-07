@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "5f83b78d69a256982ffc",
-    "url": "/static/js/main.db7c6ff7.chunk.js"
+    "revision": "a2b81a313e12836ebe8e",
+    "url": "/static/js/main.87933957.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/static/media/Dana-Cohen.e564b00b.jpg"
   },
   {
-    "revision": "81352c4677066f8a56a3e53ad204e05e",
+    "revision": "9fc2665b99639bc7c7d7d4b5a9e2bd70",
     "url": "/index.html"
   }
 ];
